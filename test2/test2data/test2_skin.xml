@@ -42,7 +42,7 @@
 			<option name="background_alpha" value="0" type="float" />
 			<option name="text_color" value="000000" type="string" />
 
-			<option name="resize" value="true" type="bool" />
+			<option name="resize" value="false" type="bool" />
 			<option name="fp_selector" value="one" type="string" />
 			<option name="fp_selector_label" value="floorPlanmenu_label" type="string" />
 			<option name="display_title" value="false" type="bool" />
@@ -59,6 +59,7 @@
 			<option name="radar_line_alpha" value="0.50000762951094835" type="float" />
 			<option name="radar_fill_color" value="ff3c2e" type="string" />
 			<option name="radar_fill_alpha" value="0.57647058823529407" type="float" />
+			<option name="selected_effect" value="pulsate" type="string" />
 			<option name="close_on_click" value="false" type="bool" />
 			<option name="position" value="topright" type="string" />
 			<option name="zorder" value="1" type="int" />
@@ -74,7 +75,7 @@
 					groupName="" 
 					url="floorplan/_108310721085.jpg" 
 					title="project_floor_title"
-					heading="180">
+					heading="0">
 							<spot name="spotmap73" posX="0.303974211" posY="0.877483428" heading="-171.60000000000042" desc="spotmap73_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano12" jsClick="spotmap73ActionSpotFloorPlan">
 								<icon url="spots/hotspot_plan_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
@@ -160,7 +161,7 @@
 	<krpano floorPlanFloorPlanLoaded="false" />
 	
 	<action name="floorPlanHideTourFloorPlan">
-		hideKolorArea_floorPlanArea(false);
+		hideKolorArea_floorPlanArea(true);
 	</action>
 	
 	<action name="floorPlanCloseTourFloorPlan">
@@ -171,7 +172,7 @@
 		if(ptplugin[floorPlanArea].isOpen === null,
 			openKolorArea_floorPlanArea();
 		,
-			showKolorArea_floorPlanArea(false);
+			showKolorArea_floorPlanArea(true);
 		);
 	</action>
 	
@@ -326,7 +327,7 @@
 		<option name="area_height" value="20" type="int" />
 		<option name="area_width_unit" value="percent" type="string" />
 		<option name="area_height_unit" value="percent" type="string" />
-		<option name="animation" value="false" type="bool" />
+		<option name="animation" value="true" type="bool" />
 		<option name="animation_duration" value="500" type="int" />
 		<option name="close_on_click" value="false" type="bool" />
 		<option name="refresh_content" value="false" type="bool" />
