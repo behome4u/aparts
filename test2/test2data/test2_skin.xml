@@ -59,7 +59,6 @@
 			<option name="radar_line_alpha" value="0.50000762951094835" type="float" />
 			<option name="radar_fill_color" value="ff3c2e" type="string" />
 			<option name="radar_fill_alpha" value="0.57647058823529407" type="float" />
-			<option name="selected_effect" value="pulsate" type="string" />
 			<option name="close_on_click" value="false" type="bool" />
 			<option name="position" value="topright" type="string" />
 			<option name="zorder" value="1" type="int" />
@@ -161,7 +160,7 @@
 	<krpano floorPlanFloorPlanLoaded="false" />
 	
 	<action name="floorPlanHideTourFloorPlan">
-		hideKolorArea_floorPlanArea(true);
+		hideKolorArea_floorPlanArea(false);
 	</action>
 	
 	<action name="floorPlanCloseTourFloorPlan">
@@ -172,7 +171,7 @@
 		if(ptplugin[floorPlanArea].isOpen === null,
 			openKolorArea_floorPlanArea();
 		,
-			showKolorArea_floorPlanArea(true);
+			showKolorArea_floorPlanArea(false);
 		);
 	</action>
 	
@@ -327,7 +326,7 @@
 		<option name="area_height" value="20" type="int" />
 		<option name="area_width_unit" value="percent" type="string" />
 		<option name="area_height_unit" value="percent" type="string" />
-		<option name="animation" value="true" type="bool" />
+		<option name="animation" value="false" type="bool" />
 		<option name="animation_duration" value="500" type="int" />
 		<option name="close_on_click" value="false" type="bool" />
 		<option name="refresh_content" value="false" type="bool" />
