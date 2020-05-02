@@ -6,7 +6,7 @@
         tour_soundsvolume="100"
         tour_autotourenabled="false"
         tour_autorotateenabled="false"
-        tour_controlmodemousetype="moveto"
+        tour_controlmodemousetype="drag"
         tour_controlmodetouchtype="drag"
         tour_fullscreen="false"
         tour_displaymap="false"
@@ -33,7 +33,7 @@
   </action>
 
   <!-- Control Mode Management -->
-  <control mouse="moveto" touch="drag" />
+  <control mouse="drag" touch="drag" />
   <action name="setControlModeDragTo">setControlMode(drag);</action>
   <action name="setControlModeMoveTo">setControlMode(moveto);</action>
   <action name="setControlMode">
@@ -241,7 +241,7 @@
 
   <!-- AUTOTOUR -->
 
-  <krpano useautotourdelay="false" autotourdelay="5" autotourHorizontalStartValue="0" />
+  <krpano useautotourdelay="true" autotourdelay="10" autotourHorizontalStartValue="0" />
   <action name="startautotour">
     set(tour_autotourenabled, true);
 startautorotation();
@@ -253,28 +253,7 @@ startautorotation();
   </action>
   <action name="resetautotourvariables">
     stopautotourtimer();
-    if (scene[get(xml.scene)].planar,
-      set(autotourdelay, 10);
-      delayedcall(autotour_call_id, get(autotourdelay), autotourtimer);
-    ,
-      set(autotourHorizontalStartValue, get(view.hlookat));
-      if ((panoview.hmin == -180) AND (panoview.hmax == 180),
-        delayedcallAutotourFull360();
-      ,
-        set(previousStep, 0);
-        set(panoramaHorizontalSize, 0);
-        set(totalPartialSize, 0);
-        set(firstBorderSize, 0);
-        set(secondBorderSize, 0);
-        set(firstStep, 0);
-        set(firstStepTest, 0);
-        set(firstStepKeep, 0);
-        set(borderCounter, 0);
-        sub(panoramaHorizontalSize, get(panoview.hmax), get(panoview.hmin));
-        Math.abs(panoramaHorizontalSize);
-        delayedcallAutotourPartial();
-      );
-    );
+    delayedcall(autotour_call_id, get(autotourdelay), autotourtimer);
   </action>
   <action name="delayedcallAutotourPartial">
     sub(tempPosition, get(view.hlookat), get(autotourHorizontalStartValue));
@@ -338,7 +317,7 @@ stopautorotation();
   <action name="autotourtimer">
     if(tour_autotourenabled,
       if(tour_autorotateenabled,
-        if(autorotate.enabled,
+        if(autorotate.enabled OR useautotourdelay == true,
           stopautotour();loadNextScene();
 
           startautotour();
@@ -360,6 +339,11 @@ stopautorotation();
   </action>
   <action name="autotouronuseraction">
     if(tour_autotourenabled, if(%1, resetautotourvariables();, stopautotourtimer();););
+  </action>
+  <events name="autotourstartevents" onTourStart="autotouratstart();" keep="true" />
+  <action name="autotouratstart">
+    if(norotation === null, if(noautotour === null, startautotour();););
+    set(events[autotourstartevents].keep, false);
   </action>
 
 
