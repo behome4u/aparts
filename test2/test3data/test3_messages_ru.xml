@@ -37,12 +37,12 @@
   <data name="ru_spotpoint67_tooltip"><![CDATA[корридор]]></data>
 
 
-	<data name="ru_spotmap60_tooltip"><![CDATA[]]></data>
-	<data name="ru_spotmap61_tooltip"><![CDATA[]]></data>
-	<data name="ru_spotmap62_tooltip"><![CDATA[]]></data>
-	<data name="ru_spotmap63_tooltip"><![CDATA[]]></data>
-	<data name="ru_spotmap64_tooltip"><![CDATA[]]></data>
-	<data name="ru_spotmap65_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap110_tooltip"><![CDATA[корридор]]></data>
+	<data name="ru_spotmap111_tooltip"><![CDATA[ванная комната]]></data>
+	<data name="ru_spotmap112_tooltip"><![CDATA[зал]]></data>
+	<data name="ru_spotmap113_tooltip"><![CDATA[кухня]]></data>
+	<data name="ru_spotmap114_tooltip"><![CDATA[спальня]]></data>
+	<data name="ru_spotmap115_tooltip"><![CDATA[туалет]]></data>
 
 
 	<data name="ru_project_floor_title"><![CDATA[New Project]]></data>

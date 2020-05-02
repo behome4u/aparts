@@ -29,6 +29,9 @@
   <!-- unsupported kind of display : PointMap -->
 
 
+  <!-- unsupported kind of display : PointMap -->
+
+
 <!-- ********** -->
 <!-- Floor plan -->
 <!-- id : floorPlan -->
@@ -58,7 +61,7 @@
 			<option name="radar_line_color" value="ffffff" type="string" />
 			<option name="radar_line_alpha" value="0.50000762951094835" type="float" />
 			<option name="radar_fill_color" value="2eff2e" type="string" />
-			<option name="radar_fill_alpha" value="0.53725490196078429" type="float" />
+			<option name="radar_fill_alpha" value="0.50000762951094835" type="float" />
 			<option name="close_on_click" value="false" type="bool" />
 			<option name="position" value="topright" type="string" />
 			<option name="zorder" value="1" type="int" />
@@ -69,28 +72,28 @@
 				
 				<floorplanItem 
 					name="fpitemmain" 
-					width="757" 
-					height="491" 
+					width="591" 
+					height="591" 
 					groupName="" 
-					url="floorplan/_108310721085.jpg" 
+					url="floorplan/plan.jpg" 
 					title="project_floor_title"
 					heading="0">
-							<spot name="spotmap73" posX="0.303974211" posY="0.877483428" heading="-171.60000000000042" desc="spotmap73_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano12" jsClick="spotmap73ActionSpotFloorPlan">
+							<spot name="spotmap73" posX="0.303974003" posY="0.87748301" heading="157" desc="spotmap73_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano12" jsClick="spotmap73ActionSpotFloorPlan">
 								<icon url="spots/hotspot_plan_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap74" posX="0.118152522" posY="0.839403987" heading="148.99999999999977" desc="spotmap74_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano10" jsClick="spotmap74ActionSpotFloorPlan">
+							<spot name="spotmap74" posX="0.118152998" posY="0.839403987" heading="67" desc="spotmap74_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano10" jsClick="spotmap74ActionSpotFloorPlan">
 								<icon url="spots/hotspot_plan_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap75" posX="0.143931255" posY="0.64403975" heading="-42.999999999999886" desc="spotmap75_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano15" jsClick="spotmap75ActionSpotFloorPlan">
+							<spot name="spotmap75" posX="0.143931001" posY="0.644039989" heading="-135" desc="spotmap75_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano15" jsClick="spotmap75ActionSpotFloorPlan">
 								<icon url="spots/hotspot_plan_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap76" posX="0.185821697" posY="0.326158941" heading="20.999999999999801" desc="spotmap76_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano13" jsClick="spotmap76ActionSpotFloorPlan">
+							<spot name="spotmap76" posX="0.185821995" posY="0.326159" heading="-45" desc="spotmap76_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano13" jsClick="spotmap76ActionSpotFloorPlan">
 								<icon url="spots/hotspot_plan_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap77" posX="0.508055866" posY="0.382450342" heading="-11.200000000000074" desc="spotmap77_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano11" jsClick="spotmap77ActionSpotFloorPlan">
+							<spot name="spotmap77" posX="0.508055985" posY="0.382450014" heading="-45" desc="spotmap77_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano11" jsClick="spotmap77ActionSpotFloorPlan">
 								<icon url="spots/hotspot_plan_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap78" posX="0.836734712" posY="0.635761619" heading="126.4000000000002" desc="spotmap78_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano14" jsClick="spotmap78ActionSpotFloorPlan">
+							<spot name="spotmap78" posX="0.83673501" posY="0.635761976" heading="157" desc="spotmap78_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano14" jsClick="spotmap78ActionSpotFloorPlan">
 								<icon url="spots/hotspot_plan_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
 				</floorplanItem>

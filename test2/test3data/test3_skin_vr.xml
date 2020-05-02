@@ -29,6 +29,9 @@
   <!-- unsupported kind of display : PointMap -->
 
 
+  <!-- unsupported kind of display : PointMap -->
+
+
   <!-- FLOORPLAN -->
   <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
   <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
