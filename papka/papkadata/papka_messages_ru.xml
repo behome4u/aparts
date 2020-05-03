@@ -54,6 +54,24 @@
 	<data name="ru_spotmap45_tooltip"><![CDATA[]]></data>
 
 
+  <data name="ru_controlBar_iplayVideoTip"><![CDATA[Play]]></data>
+  <data name="ru_controlBar_ipauseVideoTip"><![CDATA[Pause]]></data>
+  <data name="ru_controlBar_izoomInTip"><![CDATA[Zoom in]]></data>
+  <data name="ru_controlBar_izoomOutTip"><![CDATA[Zoom out]]></data>
+  <data name="ru_controlBar_imoveLeftTip"><![CDATA[Move left]]></data>
+  <data name="ru_controlBar_imoveRightTip"><![CDATA[Move right]]></data>
+  <data name="ru_controlBar_imoveUpTip"><![CDATA[Move up]]></data>
+  <data name="ru_controlBar_imoveDownTip"><![CDATA[Move down]]></data>
+  <data name="ru_controlBar_iopenFsTip"><![CDATA[Enter fullscreen]]></data>
+  <data name="ru_controlBar_icloseFsTip"><![CDATA[Exit fullscreen]]></data>
+  <data name="ru_controlBar_iautorotateOnTip"><![CDATA[Start autorotation]]></data>
+  <data name="ru_controlBar_iautorotateOffTip"><![CDATA[Stop autorotation]]></data>
+  <data name="ru_controlBar_idisplayFloorplanTip"><![CDATA[Show floorplan]]></data>
+  <data name="ru_controlBar_ihideFloorplanTip"><![CDATA[Hide floorplan]]></data>
+  <data name="ru_controlBar_idisplayControlsTip"><![CDATA[Show controls]]></data>
+  <data name="ru_controlBar_ihideControlsTip"><![CDATA[Hide controls]]></data>
+  <data name="ru_controlBar_ictrlmodeDragTip"><![CDATA[Change control mode]]></data>
+  <data name="ru_controlBar_ictrlmodeMoveTip"><![CDATA[Change control mode]]></data>
 
 
   <data name="ru_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>

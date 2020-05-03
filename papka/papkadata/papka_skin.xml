@@ -6,7 +6,7 @@
 
 
   <style name="IconDefaultPointSpotStyle"
-         url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint0.png"
+         url="%FIRSTXML%/spots/hotspot_plan_user_defaultpoint0.png"
          visible="false"
          edge="center"
          onhover="onhoverIconDefaultPointSpotStyle"
@@ -69,29 +69,29 @@
 				
 				<floorplanItem 
 					name="fpitemmain" 
-					width="591" 
-					height="591" 
+					width="757" 
+					height="491" 
 					groupName="" 
-					url="floorplan/plan.jpg" 
+					url="floorplan/plan2.jpg" 
 					title="project_floor_title"
-					heading="182">
-							<spot name="spotmap40" posX="0.178807944" posY="0.180463582" heading="28.399999999999807" desc="spotmap40_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano13" jsClick="spotmap40ActionSpotFloorPlan">
-								<icon url="spots/hotspot_neutral_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+					heading="180">
+							<spot name="spotmap40" posX="0.180451125" posY="0.29801324" heading="28.399999999999807" desc="spotmap40_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano13" jsClick="spotmap40ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap41" posX="0.562913895" posY="0.293046355" heading="-10.200000000000045" desc="spotmap41_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano11" jsClick="spotmap41ActionSpotFloorPlan">
-								<icon url="spots/hotspot_neutral_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							<spot name="spotmap41" posX="0.489795923" posY="0.405629128" heading="-10.200000000000045" desc="spotmap41_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano11" jsClick="spotmap41ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap42" posX="0.895695388" posY="0.30794701" heading="147.80000000000013" desc="spotmap42_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano14" jsClick="spotmap42ActionSpotFloorPlan">
-								<icon url="spots/hotspot_neutral_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							<spot name="spotmap42" posX="0.850698173" posY="0.614238381" heading="147.80000000000013" desc="spotmap42_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano14" jsClick="spotmap42ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap43" posX="0.420529813" posY="0.826158941" heading="-160.20000000000044" desc="spotmap43_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano12" jsClick="spotmap43ActionSpotFloorPlan">
-								<icon url="spots/hotspot_neutral_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							<spot name="spotmap43" posX="0.326530606" posY="0.859271526" heading="-160.20000000000044" desc="spotmap43_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano12" jsClick="spotmap43ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap44" posX="0.102649003" posY="0.761589408" heading="121.59999999999974" desc="spotmap44_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano10" jsClick="spotmap44ActionSpotFloorPlan">
-								<icon url="spots/hotspot_neutral_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							<spot name="spotmap44" posX="0.122448981" posY="0.817880809" heading="165.40000000000015" desc="spotmap44_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano10" jsClick="spotmap44ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap45" posX="0.107615896" posY="0.521523178" heading="-56.200000000000031" desc="spotmap45_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano15" jsClick="spotmap45ActionSpotFloorPlan">
-								<icon url="spots/hotspot_neutral_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
+							<spot name="spotmap45" posX="0.141783029" posY="0.647350967" heading="-22.400000000000063" desc="spotmap45_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano15" jsClick="spotmap45ActionSpotFloorPlan">
+								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
 				</floorplanItem>
 			
@@ -322,8 +322,8 @@
 		<option name="area_border_width" value="0" type="int" />
 		<option name="area_border_color" value="f2f2f2" type="string" />
 		<option name="area_border_alpha" value="0" type="float" />
-		<option name="area_width" value="40" type="int" />
-		<option name="area_height" value="20" type="int" />
+		<option name="area_width" value="60" type="int" />
+		<option name="area_height" value="40" type="int" />
 		<option name="area_width_unit" value="percent" type="string" />
 		<option name="area_height_unit" value="percent" type="string" />
 		<option name="animation" value="false" type="bool" />
@@ -407,9 +407,758 @@
 	/>
 	
 
+<!-- ********** -->
+<!-- iControl Bar -->
+<!-- id : controlBar_i -->
+<!-- ********** -->
+
+  <krpano controlBar_ibarbuilt="false" controlBar_ibackgroundwidthwhenclosed="0" controlBar_ibackgroundwidthwhenopened="0" controlBar_iIsOpened="false" />
+  <events name="controlBar_ievents" 
+    onxmlcomplete="controlBar_ibuildMenuBar();" 
+
+    openvideointerface="controlBar_iOpenVideoplayer();" 
+    closevideointerface="controlBar_iCloseVideoplayer();" 
+
+    keep="true" />
+
+
+
+  <action name="controlBar_ibuildMenuBar">
+    ifnot (controlBar_ibarbuilt, controlBar_ibuildMenu(); set(controlBar_ibarbuilt, true););
+  </action>
+
+  <style name="controlBar_i_btn_style"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="40" height="40"
+         crop="0|0|60|60"
+         onovercrop="0|60|60|60"
+         ondowncrop="0|120|60|60"
+         onhover="showTooltip('plugin', controlBar_imenuTooltipStyle, bottom);"
+         onout="hideTooltip();"
+         />
+  <style name="controlBar_i_btn_style_off"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="40" height="40"
+         onhover="showTooltip('plugin', controlBar_imenuTooltipStyle, bottom);"
+         onout="hideTooltip();"
+         />
+
+  <layer name="controlBar_i_menu_bg"
+         keep="true"
+         type="container"
+         zorder="2"
+         width="40"
+         height="40"
+         align="bottom"
+         x="0" y="10"
+         maskchildren="true"
+         rotate="0"
+         visible="false"
+         >
+
+
+    <layer name="controlBar_ibtn_ctrlmode_move_to"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_move_to.png"
+            style="controlBar_i_btn_style"
+            tooltip="controlBar_ictrlmodeMoveTip"
+            onclick="setControlModeMoveTo();
+"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="controlBar_ibtn_ctrlmode_drag_to"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_drag_to.png"
+            style="controlBar_i_btn_style"
+            tooltip="controlBar_ictrlmodeDragTip"
+            onclick="setControlModeDragTo();
+"
+            visible="false"
+            devices="desktop"
+            />
+
+    <layer name="controlBar_ibtn_in"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_zoom_in.png"
+            ondown="viewControlZoomIn(false);"
+            onup="viewControlZoomStop();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_izoomInTip"
+            devices="desktop"
+            />
+    <layer name="controlBar_ibtn_out"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_zoom_out.png"
+            ondown="viewControlZoomOut(false);
+"
+            onup="viewControlZoomStop();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_izoomOutTip"
+            devices="desktop"
+            />
+
+    <layer name="controlBar_ibtn_left"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_move_left.png"
+            ondown="viewControlMoveLeft(false);
+"
+            onup="viewControlMoveHoriStop();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_imoveLeftTip"
+            devices="desktop"
+            />
+    <layer name="controlBar_ibtn_right"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_move_right.png"
+            ondown="viewControlMoveRight(false);
+"
+            onup="viewControlMoveHoriStop();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_imoveRightTip"
+            devices="desktop"
+            />
+
+    <layer name="controlBar_ibtn_up"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_move_up.png"
+            ondown="viewControlMoveUp(false);
+"
+            onup="viewControlMoveVertStop();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_imoveUpTip"
+            devices="desktop"
+            />
+    <layer name="controlBar_ibtn_down"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_move_down.png"
+            ondown="viewControlMoveDown(false);
+"
+            onup="viewControlMoveVertStop();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_imoveDownTip"
+            devices="desktop"
+            />
+
+
+
+
+    <layer name="controlBar_ibtn_display_floorplan"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_floorplan.png"
+            onclick="showFloorplan();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_idisplayFloorplanTip"
+            />
+    <layer name="controlBar_ibtn_hide_floorplan"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_floorplan.png"
+            onclick="hideFloorplan();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_ihideFloorplanTip"
+            />
+
+
+    <layer name="controlBar_ibtn_openfs"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_enter_fs.png"
+            onclick="enterFullscreen();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            tooltip="controlBar_iopenFsTip"
+            />
+    <layer name="controlBar_ibtn_closefs"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_close_fs.png"
+            onclick="exitFullscreen();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            tooltip="controlBar_icloseFsTip"
+            />
+
+    <layer name="controlBar_ibtn_autorotate_on"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_start_autorotation.png"
+            onclick="resumeautorotation();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_iautorotateOnTip"
+            />
+    <layer name="controlBar_ibtn_autorotate_off"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_stop_autorotation.png"
+            onclick="pauseautorotation();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_iautorotateOffTip"
+            />
+
+
+    <layer name="controlBar_ibtn_play_video"
+           url="%FIRSTXML%/graphics/icontrolbar/btn_start_videoplayer.png"
+           onclick="videointerface_togglepause();"
+           style="controlBar_i_btn_style"
+           visible="false"
+           tooltip="controlBar_iplayVideoTip"
+           />
+    <layer name="controlBar_ibtn_pause_video"
+           url="%FIRSTXML%/graphics/icontrolbar/btn_pause_videoplayer.png"
+           onclick="videointerface_togglepause();"
+           style="controlBar_i_btn_style"
+           visible="false"
+           tooltip="controlBar_ipauseVideoTip"
+           />
+
+
+
+
+    <layer name="controlBar_ibtn_hidecontrols"
+           url="%FIRSTXML%/graphics/icontrolbar/btn_hide_controls.png"
+           style="controlBar_i_btn_style"
+           onclick="controlBar_ihideMenuControls();hideTourControls();
+"
+           visible="false"
+           tooltip="controlBar_ihideControlsTip"
+           />
+    <layer name="controlBar_ibtn_showcontrols"
+           url="%FIRSTXML%/graphics/icontrolbar/btn_show_controls.png"
+           style="controlBar_i_btn_style"
+           onclick="controlBar_ishowMenuControls();showTourControls();
+"
+           tooltip="controlBar_idisplayControlsTip"
+           visible="false"
+           />
+ </layer>
+
+
+
+
+
+	<events name="controlBar_icontrolmodechangedevent" 
+		oncontrolmodechanged="controlBar_iupdateControlModeButtons();" 
+		keep="true" />
+	<action name="controlBar_iHideControlModeButtons">
+		set(layer[controlBar_ibtn_ctrlmode_move_to].visible, false);
+		set(layer[controlBar_ibtn_ctrlmode_drag_to].visible, false);
+	</action>
+	<action name="controlBar_iShowControlModeButtons">
+		if (tour_controlmodemousetype == "moveto",
+			set(layer[controlBar_ibtn_ctrlmode_drag_to].visible, true);
+			set(layer[controlBar_ibtn_ctrlmode_move_to].visible, false);
+		,
+			set(layer[controlBar_ibtn_ctrlmode_move_to].visible, true);
+			set(layer[controlBar_ibtn_ctrlmode_drag_to].visible, false);
+		);
+	</action>
+	<action name="controlBar_iupdateControlModeButtons">
+	if (device.desktop,
+		if (controlBar_iIsOpened,
+			controlBar_iShowControlModeButtons();
+		,
+			controlBar_iHideControlModeButtons();
+		);
+	,
+		controlBar_iHideControlModeButtons();
+	);
+	</action>
+
+
+  <action name="controlBar_ihideMenuControls">
+    set(controlBar_iIsOpened, false);
+    set(layer[controlBar_ibtn_hidecontrols].visible, false);
+    set(layer[controlBar_ibtn_showcontrols].visible, true);
+
+
+if (device.desktop,
+	set(layer[controlBar_ibtn_in].visible, false);
+	set(layer[controlBar_ibtn_out].visible, false);
+);
+if (device.desktop,
+	set(layer[controlBar_ibtn_up].visible, false);
+	set(layer[controlBar_ibtn_down].visible, false);
+);
+if (device.desktop,
+	set(layer[controlBar_ibtn_left].visible, false);
+	set(layer[controlBar_ibtn_right].visible, false);
+);
+	controlBar_iupdateFullscreenButtons();
+
+
+	controlBar_iupdateAutorotationButtons();
+
+	controlBar_iupdateHideShowVideoplayerButtons();
+
+	controlBar_iupdateControlModeButtons();
+
+	controlBar_iupdateFloorplanButtons();
+
+
+
+	set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenclosed));
+
+	set(layer[controlBar_i_menu_bg].visible, true);
+  </action>
+  <action name="controlBar_ishowMenuControls">
+    set(controlBar_iIsOpened, true);
+    set(layer[controlBar_ibtn_hidecontrols].visible, true);
+    set(layer[controlBar_ibtn_showcontrols].visible, false);
+	set(layer[controlBar_i_menu_bg].visible, true);
+
+
+if (device.desktop,
+	set(layer[controlBar_ibtn_in].visible, true);
+	set(layer[controlBar_ibtn_out].visible, true);
+);
+if (device.desktop,
+	set(layer[controlBar_ibtn_up].visible, true);
+	set(layer[controlBar_ibtn_down].visible, true);
+);
+if (device.desktop,
+	set(layer[controlBar_ibtn_left].visible, true);
+	set(layer[controlBar_ibtn_right].visible, true);
+);
+	controlBar_iupdateFullscreenButtons();
+
+
+	controlBar_iupdateAutorotationButtons();
+
+	controlBar_iupdateHideShowVideoplayerButtons();
+
+	controlBar_iupdateControlModeButtons();
+
+	controlBar_iupdateFloorplanButtons();
+
+
+    set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopened));
+  </action>
+
+
+	<events name="controlBar_iDisplayFloorPlanEvents" 
+		onshowtourfloorplan="controlBar_iupdateFloorplanButtons();" 
+		onhidetourfloorplan="controlBar_iupdateFloorplanButtons();" 
+		keep="true" />
+	<action name="controlBar_iHideFloorplanButtons">
+		set(layer[controlBar_ibtn_display_floorplan].visible, false);
+		set(layer[controlBar_ibtn_hide_floorplan].visible, false);
+	</action>
+	<action name="controlBar_iShowFloorplanButtons">
+		if (tour_displayfloorplan,
+			set(layer[controlBar_ibtn_hide_floorplan].visible, true);
+			set(layer[controlBar_ibtn_display_floorplan].visible, false);
+		,
+			set(layer[controlBar_ibtn_display_floorplan].visible, true);
+			set(layer[controlBar_ibtn_hide_floorplan].visible, false);
+		);
+	</action>
+	<action name="controlBar_iupdateFloorplanButtons">
+		if (controlBar_iIsOpened,
+			controlBar_iShowFloorplanButtons();
+		,
+			controlBar_iHideFloorplanButtons();
+		);
+	</action>
+
+
+
+  <events name="controlBar_imenufullscreenchangeevent"
+          onenterfullscreen="controlBar_iupdateFullscreenButtons();"
+          onexitfullscreen="controlBar_iupdateFullscreenButtons();"
+          keep="true"/>
+	<action name="controlBar_iHideFullscreenButtons">
+		set(layer[controlBar_ibtn_openfs].visible , false);
+		set(layer[controlBar_ibtn_closefs].visible, false);
+	</action>
+	<action name="controlBar_iShowFullscreenButtons">
+		if (device.fullscreensupport,
+			if(tour_fullscreen,
+				set(layer[controlBar_ibtn_openfs].visible , false);
+				set(layer[controlBar_ibtn_closefs].visible, true);
+			,
+				set(layer[controlBar_ibtn_openfs].visible ,true);
+				set(layer[controlBar_ibtn_closefs].visible,false);
+			);
+		,
+			controlBar_iHideFullscreenButtons();
+		);
+	</action>
+	<action name="controlBar_iupdateFullscreenButtons">
+		if (controlBar_iIsOpened,
+			controlBar_iShowFullscreenButtons();
+		,
+			controlBar_iHideFullscreenButtons();
+		);
+	</action>
+
+	<events name="controlBar_iAutorotationEvents"
+		onstartautorotation="controlBar_iupdateAutorotationButtons();"
+		onresumeautorotation="controlBar_iupdateAutorotationButtons();"
+		onstopautorotation="controlBar_iupdateAutorotationButtons();"
+		onpauseautorotation="controlBar_iupdateAutorotationButtons();"
+		keep="true"/>
+	<action name="controlBar_iHideAutorotationButtons">
+		set(layer[controlBar_ibtn_autorotate_off].visible, false);
+		set(layer[controlBar_ibtn_autorotate_on].visible , false);
+	</action>
+	<action name="controlBar_iShowAutorotationButtons">
+		if(autorotate.enabled == false,
+			set(layer[controlBar_ibtn_autorotate_off].visible, false);
+			set(layer[controlBar_ibtn_autorotate_on].visible , true);
+		,
+			set(layer[controlBar_ibtn_autorotate_off].visible, true);
+			set(layer[controlBar_ibtn_autorotate_on].visible , false);
+		);
+	</action>
+	<action name="controlBar_iupdateAutorotationButtons">
+		if (controlBar_iIsOpened,
+			controlBar_iShowAutorotationButtons();
+		,
+			controlBar_iHideAutorotationButtons();
+		);
+	</action>
+
+
+    <events name="controlBar_ihideshowvideoplayerevent" onplayvideointerface="controlBar_iupdateHideShowVideoplayerButtons();" onpausevideointerface="controlBar_iupdateHideShowVideoplayerButtons();" keep="true"/>
+    <action name="controlBar_iHideHideShowVideoplayerButtons">
+      if(controlBar_ibackgroundwidthwhenopened GT 0,
+        if(%1,
+          set(layer[controlBar_i_menu_bg].width,get(controlBar_ibackgroundwidthwhenopenedwithoutvideo));
+        ,
+          tween(layer[controlBar_i_menu_bg].width,get(controlBar_ibackgroundwidthwhenopenedwithoutvideo),0.5,easeOutQuad);
+        );
+      ,
+        set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopenedwithoutvideo));
+      );
+      set(layer[controlBar_ibtn_play_video].visible, false);
+      set(layer[controlBar_ibtn_pause_video].visible, false);
+    </action>
+    <action name="controlBar_iShowHideShowVideoplayerButtons">
+      if(controlBar_i_use_videoplayer_interface,
+        if (plugin[get(videointerface_video)],
+        if (plugin[get(videointerface_video)].ispaused,
+          if(controlBar_ibackgroundwidthwhenopened GT 0,
+            tween(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopened));
+          ,
+            set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopenedwithoutvideo));
+          );
+          set(layer[controlBar_ibtn_play_video].visible, true);
+          set(layer[controlBar_ibtn_pause_video].visible, false);
+        ,
+          if(controlBar_ibackgroundwidthwhenopened GT 0,
+            tween(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopened));
+          ,
+            set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopenedwithoutvideo));
+          );
+          set(layer[controlBar_ibtn_play_video].visible, false);
+          set(layer[controlBar_ibtn_pause_video].visible, true);
+        ););
+      ,
+        controlBar_iHideHideShowVideoplayerButtons();
+      );
+    </action>
+    <action name="controlBar_iupdateHideShowVideoplayerButtons">
+      if (controlBar_iIsOpened,
+        controlBar_iShowHideShowVideoplayerButtons();
+      ,
+        controlBar_iHideHideShowVideoplayerButtons(true);
+      );
+    </action>
+    
+
+<layer name="controlBar_imenuTooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	type="text"
+	align="center"
+	bg="false"
+	bgborder="0"
+	css="color:#000000;font-family:Helvetica;font-weight:bold;font-size:14px;text-align:left;"
+	xoffset="0"
+	yoffset="0"
+	padding="2"
+	interactivecontent="false"
+	zorder="0"
+	visible="false"
+	html=""
+	edge="bottom"
+/>
+  <action name="controlBar_ibuildMenu">
+    
+    set(controlBar_ibutton_pos, 0);
+
+	set(controlBar_ibackgroundwidthwhenclosed, 40);
+    set(layer[controlBar_ibtn_hidecontrols].x, get(controlBar_ibutton_pos));
+    set(layer[controlBar_ibtn_showcontrols].x, get(controlBar_ibutton_pos));
+    inc(controlBar_ibutton_pos, 45);
+
+
+
+      if (device.fullscreensupport,
+        set(layer[controlBar_ibtn_openfs].x , get(controlBar_ibutton_pos));
+        set(layer[controlBar_ibtn_closefs].x, get(controlBar_ibutton_pos));
+        inc(controlBar_ibutton_pos, 45);
+      );
+
+
+      set(layer[controlBar_ibtn_display_floorplan].x , get(controlBar_ibutton_pos));
+      set(layer[controlBar_ibtn_hide_floorplan].x    , get(controlBar_ibutton_pos));
+      inc(controlBar_ibutton_pos, 45);
+
+
+      set(layer[controlBar_ibtn_autorotate_on].x , get(controlBar_ibutton_pos));
+      set(layer[controlBar_ibtn_autorotate_off].x, get(controlBar_ibutton_pos));
+      inc(controlBar_ibutton_pos, 45);
+
+
+
+    if (device.desktop,
+      set(layer[controlBar_ibtn_ctrlmode_drag_to].x, get(controlBar_ibutton_pos));
+      set(layer[controlBar_ibtn_ctrlmode_move_to].x, get(controlBar_ibutton_pos));
+      inc(controlBar_ibutton_pos, 45);
+    );
+
+
+
+
+
+      if (device.desktop,
+        set(layer[controlBar_ibtn_right].x, get(controlBar_ibutton_pos));
+        inc(controlBar_ibutton_pos, 45);
+        set(layer[controlBar_ibtn_left].x, get(controlBar_ibutton_pos));
+        inc(controlBar_ibutton_pos, 45);
+      );
+
+      if (device.desktop,
+        set(layer[controlBar_ibtn_down].x, get(controlBar_ibutton_pos));
+        inc(controlBar_ibutton_pos, 45);
+        set(layer[controlBar_ibtn_up].x, get(controlBar_ibutton_pos));
+        inc(controlBar_ibutton_pos, 45);
+      );
+
+      if (device.desktop,
+        set(layer[controlBar_ibtn_out].x, get(controlBar_ibutton_pos));
+        inc(controlBar_ibutton_pos, 45);
+        set(layer[controlBar_ibtn_in].x, get(controlBar_ibutton_pos));
+        inc(controlBar_ibutton_pos, 45);
+      );
+
+
+    set(layer[controlBar_ibtn_play_video].x, get(controlBar_ibutton_pos));
+    set(layer[controlBar_ibtn_pause_video].x, get(controlBar_ibutton_pos));
+    inc(controlBar_ibutton_pos, 45);
+
+      dec(controlBar_ibutton_pos, 5);
+
+      set(controlBar_ibackgroundwidthwhenopened, get(controlBar_ibutton_pos));
+
+      sub(controlBar_ibackgroundwidthwhenopenedwithoutvideo, controlBar_ibackgroundwidthwhenopened, 45);
+
+    
+      set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopened));
+	
+	
+	
+    </action>
+
+	<events name="controlBar_iStartTourEvents" onTourStart="controlBar_iCallOnStartTour();" keep="true" />
+	
+	<action name="controlBar_iCallOnStartTour">
+		
+		controlBar_ishowMenuControls();
+	</action>
+
+	<action name="controlBar_iOpenVideoplayer">
+		set(controlBar_i_use_videoplayer_interface, true);
+		
+		controlBar_iupdateHideShowVideoplayerButtons();
+	</action>
+	<action name="controlBar_iCloseVideoplayer">
+		set(controlBar_i_use_videoplayer_interface, false);
+		
+		controlBar_iupdateHideShowVideoplayerButtons();
+	</action>
+
+
+
   <!-- FLOORPLAN -->
   <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
   <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
 
+
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+
+
+<action name="viewControlMoveUp">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(isfullvertical == false AND calc(view.vlookat-%2) LT view.vlookatmin,
+				moveto(get(view.hlookat), get(view.vlookatmin));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat-%2));
+			);
+		,
+			set(vlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveDown">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(sceneisfull360 == false AND calc(view.vlookat+%2) GT view.vlookatmax,
+				moveto(get(view.hlookat), get(view.vlookatmax));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat+%2));
+			);
+		,
+			set(vlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveLeft">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat-%2) LT view.hlookatmin,
+				moveto(get(view.hlookatmin), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat-%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+		);
+	,
+		set(hlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveRight">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat+%2) GT view.hlookatmax,
+				moveto(get(view.hlookatmax), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat+%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+			
+		);
+	,
+		set(hlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveHoriStop">
+	set(hlookat_moveforce, 0);
+</action>
+<action name="viewControlMoveVertStop">
+	set(vlookat_moveforce, 0);
+</action>
+
+<action name="viewControlZoomIn">
+	if(%1,
+		if(%2,
+			if(%2 LT view.fovmin,
+				zoomto(get(view.fovmin));
+			,
+				if(%2 LT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, -1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, -1);
+	);
+</action>
+<action name="viewControlZoomOut">
+	if(%1,
+		if(%2,
+			if(%2 GT view.fovmax,
+				zoomto(get(view.fovmax));
+			,
+				if(%2 GT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, +1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, +1);
+	);
+</action>
+<action name="viewControlZoomStop">
+	set(fov_moveforce, 0);
+</action>
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
 
 </krpano>
