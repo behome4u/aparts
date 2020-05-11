@@ -633,20 +633,20 @@ if (device.desktop,
 					groupName="" 
 					url="floorplan/plan.jpg" 
 					title="project_floor_title"
-					heading="0">
-							<spot name="spotmap86" posX="0.244167969" posY="0.733443737" heading="-116.39999999999991" desc="spotmap86_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano15" jsClick="spotmap86ActionSpotFloorPlan">
+					heading="90">
+							<spot name="spotmap86" posX="0.244167969" posY="0.733443737" heading="-87.799999999999869" desc="spotmap86_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano15" jsClick="spotmap86ActionSpotFloorPlan">
 								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap87" posX="0.612752736" posY="0.627483428" heading="-140.60000000000002" desc="spotmap87_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano12" jsClick="spotmap87ActionSpotFloorPlan">
+							<spot name="spotmap87" posX="0.612752736" posY="0.627483428" heading="-101.99999999999989" desc="spotmap87_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano12" jsClick="spotmap87ActionSpotFloorPlan">
 								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
 							<spot name="spotmap89" posX="0.244167969" posY="0.417218536" heading="177.8000000000003" desc="spotmap89_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano29" jsClick="spotmap89ActionSpotFloorPlan">
 								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap90" posX="0.251944005" posY="0.18708609" heading="-60.399999999999977" desc="spotmap90_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano14" jsClick="spotmap90ActionSpotFloorPlan">
+							<spot name="spotmap90" posX="0.251944005" posY="0.18708609" heading="-68.200000000000202" desc="spotmap90_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano14" jsClick="spotmap90ActionSpotFloorPlan">
 								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap91" posX="0.660964251" posY="0.256622523" heading="-153.99999999999991" desc="spotmap91_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano13" jsClick="spotmap91ActionSpotFloorPlan">
+							<spot name="spotmap91" posX="0.660964251" posY="0.256622523" heading="-178.39999999999972" desc="spotmap91_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano13" jsClick="spotmap91ActionSpotFloorPlan">
 								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
 							<spot name="spotmap92" posX="0.85692066" posY="0.246688738" heading="-162.40000000000001" desc="spotmap92_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano10" jsClick="spotmap92ActionSpotFloorPlan">
@@ -881,8 +881,8 @@ if (device.desktop,
 		<option name="area_border_width" value="0" type="int" />
 		<option name="area_border_color" value="f2f2f2" type="string" />
 		<option name="area_border_alpha" value="0" type="float" />
-		<option name="area_width" value="20" type="int" />
-		<option name="area_height" value="40" type="int" />
+		<option name="area_width" value="30" type="int" />
+		<option name="area_height" value="50" type="int" />
 		<option name="area_width_unit" value="percent" type="string" />
 		<option name="area_height_unit" value="percent" type="string" />
 		<option name="animation" value="false" type="bool" />
