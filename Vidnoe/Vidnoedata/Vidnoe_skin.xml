@@ -631,9 +631,9 @@ if (device.desktop,
 					width="1006" 
 					height="944" 
 					groupName="" 
-					url="floorplan/_108310721085.jpg" 
+					url="floorplan/plan.jpg" 
 					title="project_floor_title"
-					heading="90">
+					heading="0">
 							<spot name="spotmap86" posX="0.244167969" posY="0.733443737" heading="-116.39999999999991" desc="spotmap86_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano15" jsClick="spotmap86ActionSpotFloorPlan">
 								<icon url="spots/hotspot_user_defaultmap0.png" iconWidth="32" iconHeight="32" iconAnchor="center" />
 							</spot>
