@@ -10,12 +10,16 @@
 
 
   <data name="ru_pano10_title"><![CDATA[Гостиная]]></data>
+  <data name="ru_spotpoint41_tooltip"><![CDATA[Коридор]]></data>
+  <data name="ru_spotpoint42_tooltip"><![CDATA[Кухня]]></data>
 
 
   <data name="ru_pano12_title"><![CDATA[Кухня]]></data>
+  <data name="ru_spotpoint43_tooltip"><![CDATA[Гостиная]]></data>
 
 
   <data name="ru_pano11_title"><![CDATA[Коридор]]></data>
+  <data name="ru_spotpoint40_tooltip"><![CDATA[Гостиная]]></data>
 
 
 	<data name="ru_spotmap17_tooltip"><![CDATA[]]></data>

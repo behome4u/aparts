@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <krpano version="1.19-pr16">
 
+  <!-- unsupported kind of display : PointMap -->
+
+
     
-  <!-- Spot Style - Default Point Spot Style -->
+  <!-- Spot Style - Load panorama -->
 
 
-  <style name="IconDefaultPointSpotStyle"
-         url="%FIRSTXML%/spots/gogo_user_defaultpoint0.png"
+  <style name="IconLoadpanorama"
+         url="%FIRSTXML%/spots/hotspot_neutral_sequence_user_defaultpoint5.png"
          visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="40"
+         frameheight="40"
+         stopspotsequence="false"
+         crop="0|0|40|40"
          edge="center"
-         onhover="onhoverIconDefaultPointSpotStyle"
-         onout="onoutIconDefaultPointSpotStyle"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconLoadpanorama"
+         onout="onoutIconLoadpanorama"
 
-         height="50"
-         width="100"
+
          />
-  <action name="onhoverIconDefaultPointSpotStyle">
+  <action name="onhoverIconLoadpanorama">
     showtooltip('hotspot');
   </action>
-  <action name="onoutIconDefaultPointSpotStyle">
+  <action name="onoutIconLoadpanorama">
     hideTooltip();
 
 
 
   </action>
 
-
-
-  <!-- unsupported kind of display : PointMap -->
 
 
 <action name="viewControlMoveUp">
